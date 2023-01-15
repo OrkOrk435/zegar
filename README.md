@@ -18,3 +18,6 @@ If you don't want to bother with these settings, you can just use one of the pre
 > - ČST (Československá televize; Czechoslovak TV)
 > - Время (Clock ident before Время news programme; Soviet Union TV)
 > - MTVA (Médiaszolgáltatás-támogató és Vagyonkezelő Alap; Hungarian TV)
+
+## NTP
+By default, Zegar takes time from your local machine, but alternatively, you can provide your own Network Time Protocol server.
