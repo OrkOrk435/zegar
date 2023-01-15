@@ -10,7 +10,7 @@ You can set:
 > - clock hands color
 > - your own logo (png image)
 > - VHS analog corruption effect
-> - clock hands shaking
+> - clock hands shaking effect
 
 ## Templates
 If you don't want to bother with these settings, you can just use one of the pre-made templates, ready to use:
