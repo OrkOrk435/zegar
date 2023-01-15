@@ -1,0 +1,38 @@
+/*These are standard CSS rules, can be modified by user*/
+body
+{
+    background-color: #00069d;
+    color: white;
+    font-size: 36px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* User non-modifiable */
+#settings-window
+{
+    background-color: black;
+    color: white;
+    width: 35%;
+    font-size: 24px;
+    padding: 10px;
+}
+
+#settings-window > label
+{
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.color-picker
+{
+    border: 0px;
+    width: 24px;
+    height: 24px;
+    border-radius: 0%;
+}
+.my-center
+{
+    margin-top: 25px;
+    text-align: center;
+}
