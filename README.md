@@ -8,7 +8,7 @@ Bring back old soviet-era analog clocks displayed on TV between TV shows and on 
 You can set:
 > - background color
 > - clock hands color
-> - your own logo (png image)
+> - your own logo (svg image)
 > - VHS analog corruption effect
 > - clock hands shaking effect
 
