@@ -10,16 +10,20 @@
 <body>
     <div id = "hideable-content">
         <div id = "settings-window">
-            <label>Background color</label><input type="color" class = "color-picker"/><br>
-            <label>Clock hands color</label><input type="color" class = "color-picker"/><br>
+            <label>Background color</label><input type="color" class = "color-picker" id = "bg-color-picker"/><br>
+            <label>Clock hands color</label><input type="color" class = "color-picker" id = "hands-color-picker"/><br>
             <label>Logo</label><input type="file"/><br>
             <label>VHS corruption effect</label><input type="range"/><br>
             <label>Clock hands shaking effect</label><input type="range"/><br>
             <div class="my-center">Press X to hide/show this window</div>
         </div>
     </div>
-    <div id = "clock"></div>
+    <div id = "clock">While I`m trying to make the clock work, please pretend, that this text IS a clock.</div>
     <script src = "assets/js/main.js"></script>
     <script src = "assets/js/settings.js"></script>
+
+    <script>
+        onStart();
+    </script>
 </body>
 </html>
