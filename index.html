@@ -6,19 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zegar</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div id = "hideable-content">
         <div id = "settings-window">
+            <h2>Display</h2>
             <label>Background color</label><input type="color" class = "color-picker" id = "bg-color-picker"/><br>
             <label>Clock hands color</label><input type="color" class = "color-picker" id = "hands-color-picker"/><br>
-            <label>Logo</label><input type="file"/><br>
+            <hr>
+            <label>Logo</label><input type="file" class = "img-file"/><br>
+            <label>Dimensions</label><input type="text" id = "img-width" placeholder="width (px)"/> <input type="text" id = "img-height" placeholder="height (px)"/><br>
+            <label>Position</label><input type="text" id = "img-pos-x" placeholder="position X"/> <input type="text" id = "img-pos-y" placeholder="position Y"/><br>
+            <hr>
             <label>VHS corruption effect</label><input type="range"/><br>
             <label>Clock hands shaking effect</label><input type="range"/><br>
+            <h2>NTP</h2>
+            <label>Server</label><input type="text"/>
             <div class="my-center">Press X to hide/show this window</div>
         </div>
     </div>
-    <div id = "clock">While I`m trying to make the clock work, please pretend, that this text IS a clock.</div>
+    <div id = "clock">While I`m trying to make the clock work, please pretend, that this text IS a clock.
+        <div class="clock-logo"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
     <script src = "assets/js/main.js"></script>
     <script src = "assets/js/settings.js"></script>
 
