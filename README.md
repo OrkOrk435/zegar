@@ -4,6 +4,9 @@ HTML clock, based on soviet-era TV clocks
 ## Overview
 Bring back old soviet-era analog clocks displayed on TV between TV shows and on night. It is fully customizable - you can modify any setting.
 
+## Current state
+App is currently unusable, and on very early stage of development. 
+
 ## Features
 You can set:
 > - background color
