@@ -21,12 +21,13 @@
             <hr>
             <label>VHS corruption effect</label><input type="range"/><br>
             <label>Clock hands shaking effect</label><input type="range"/><br>
-            <h2>NTP</h2>
-            <label>Server</label><input type="text"/>
+            <h2>NTP</h2> <h4>*Not working yet*</h4>
+            <label>Server</label><input type="text" placeholder="like: pool.ntp.org"/><br>
+            <label>Time zone</label><input type="text" placeholder="like: EST, CET"/>
             <div class="my-center">Press X to hide/show this window</div>
         </div>
     </div>
-    <div id = "clock">While I`m trying to make the clock work, please pretend, that this text IS a clock.
+    <div id = "clock"><div id="clock-temp"></div>
         <div class="clock-logo"></div>
     </div>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
