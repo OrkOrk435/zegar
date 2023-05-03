@@ -10,7 +10,7 @@ function onStart()
 }
 
 document.onkeydown = function (e) {
-    console.log(e.code);
+    //console.log(e.code);
     if(e.key == "x") showSettings();
   };
 function showSettings()

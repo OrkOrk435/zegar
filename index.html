@@ -16,7 +16,7 @@
             <label>Clock hands color</label><input type="color" class = "color-picker" id = "hands-color-picker"/><br>
             <hr>
             <label>Logo</label><input type="file" class = "img-file"/><br>
-            <label>Dimensions</label><input type="text" id = "img-width" placeholder="width (px)"/> <input type="text" id = "img-height" placeholder="height (px)"/><br>
+            <label>Dimensions</label><input type="text" id = "img-width" placeholder="width (px)" onchange="addFile(change)"/> <input type="text" id = "img-height" placeholder="height (px)" onchange=" $('input.img-file').on('change', addFile);"/><br>
             <label>Position</label><input type="text" id = "img-pos-x" placeholder="position X"/> <input type="text" id = "img-pos-y" placeholder="position Y"/><br>
             <hr>
             <label>VHS corruption effect</label><input type="range"/><br>
